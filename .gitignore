@@ -1,0 +1,25 @@
+# Log files
+*.log
+
+# Terraform plugins directory
+.terraform/
+
+# Local Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Backup files created during the "terraform init" command
+*.backup
+
+# Sensitive files
+secrets.tfvars
+
+# Ignore any binary files or other extensions as needed
+*.bin
+*.zip
+
+# Checkpoint files (used to check for updates)
+.terraform-checkpoint
+
+# .gitignore
+terraform.tfvars
